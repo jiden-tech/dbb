@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Downtown Byte Burger</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#faf8f3;
+color:#222;
+overflow-x:hidden;
+}
+
+/* HEADER */
+
+header{
+background:#8B0000;
+padding:15px 20px;
+box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
+
+.navbar{
+max-width:1200px;
+margin:auto;
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.logo-small{
+width:65px;
+height:65px;
+object-fit:contain;
+background:white;
+border-radius:50%;
+padding:4px;
+}
+
+.brand h1{
+font-size:24px;
+color:white;
+}
+
+.brand p{
+color:#ffd68a;
+font-size:13px;
+}
+
+/* HERO */
+
+.hero{
+padding:50px 20px;
+text-align:center;
+max-width:1200px;
+margin:auto;
+}
+
+.hero-logo{
+width:240px;
+max-width:80%;
+margin-bottom:20px;
+}
+
+.hero h2{
+font-size:52px;
+color:#8B0000;
+margin-bottom:15px;
+line-height:1.1;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+font-size:18px;
+line-height:1.8;
+}
+
+.cta{
+display:inline-block;
+margin-top:25px;
+padding:16px 35px;
+background:#F4B321;
+color:black;
+font-weight:bold;
+text-decoration:none;
+border-radius:12px;
+font-size:18px;
+}
+
+/* DAILY LIMIT */
+
+.limit{
+background:#8B0000;
+color:white;
+text-align:center;
+padding:60px 20px;
+margin-top:40px;
+}
+
+.limit h3{
+font-size:64px;
+line-height:1;
+}
+
+.limit p{
+margin-top:15px;
+font-size:18px;
+}
+
+/* ABOUT */
+
+.section{
+padding:70px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.section h2{
+text-align:center;
+margin-bottom:25px;
+color:#8B0000;
+font-size:36px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+line-height:1.8;
+}
+
+/* FEATURES */
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:20px;
+}
+
+.feature{
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.feature h3{
+color:#8B0000;
+margin-bottom:10px;
+}
+
+/* ORDER */
+
+.order{
+text-align:center;
+padding:60px 20px;
+}
+
+.order h2{
+color:#8B0000;
+margin-bottom:15px;
+}
+
+.order a{
+display:inline-block;
+margin-top:15px;
+padding:16px 35px;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:12px;
+font-weight:bold;
+}
+
+/* FOOTER */
+
+footer{
+background:#8B0000;
+color:white;
+text-align:center;
+padding:40px 20px;
+margin-top:50px;
+}
+
+/* FLOATING BUTTON */
+
+.whatsapp{
+position:fixed;
+right:20px;
+bottom:20px;
+background:#25D366;
+color:white;
+padding:15px 18px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero h2{
+font-size:38px;
+}
+
+.limit h3{
+font-size:42px;
+}
+
+.brand h1{
+font-size:18px;
+}
+
+.hero-logo{
+width:180px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="navbar">
+
+<img src="logo.png" class="logo-small">
+
+<div class="brand">
+<h1>Downtown Byte Burger</h1>
+<p>Taste The Downtown Bite!</p>
+</div>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<img src="logo.png" class="hero-logo">
+
+<h2>Taste The Downtown Bite!</h2>
+
+<p>
+American-style thick patty burger crafted fresh daily in Surabaya.
+Premium beef, loaded cheese, and secret sauce in every bite.
+</p>
+
+<a href="https://wa.me/6281234567890" class="cta">
+🍔 ORDER NOW
+</a>
+
+</section>
+
+<section class="limit">
+
+<h3>ONLY 30<br>BURGERS<br>DAILY</h3>
+
+<p>
+Freshly prepared every day. Limited quantity to ensure premium quality.
+</p>
+
+</section>
+
+<section class="section">
+
+<h2>About DBB</h2>
+
+<div class="card">
+
+<p>
+Downtown Byte Burger menggabungkan semangat street food Amerika dengan budaya digital modern.
+Kami fokus pada satu hal: burger premium dengan daging tebal, keju melimpah, dan saus rahasia khas DBB.
+</p>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Why Choose DBB?</h2>
+
+<div class="features">
+
+<div class="feature">
+<h3>🥩 Premium Beef</h3>
+<p>Daging tebal, juicy, dan berkualitas tinggi.</p>
+</div>
+
+<div class="feature">
+<h3>🧀 Secret Sauce</h3>
+<p>Racikan saus khas yang menjadi identitas DBB.</p>
+</div>
+
+<div class="feature">
+<h3>🔥 Fresh Daily</h3>
+<p>Dibuat setiap hari dalam jumlah terbatas.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="order">
+
+<h2>Ready To Taste?</h2>
+
+<p>Pesan sekarang sebelum kuota harian habis.</p>
+
+<a href="https://wa.me/6281234567890">
+📱 Order via WhatsApp
+</a>
+
+</section>
+
+<footer>
+
+<h2>Downtown Byte Burger</h2>
+
+<p>Taste The Downtown Bite!</p>
+
+<p>Surabaya, Indonesia</p>
+
+</footer>
+
+<a href="https://wa.me/6281234567890" class="whatsapp">
+📱 Order
+</a>
+
+</body>
+</html>
